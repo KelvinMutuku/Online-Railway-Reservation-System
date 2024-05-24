@@ -38,7 +38,7 @@
                   $stmt->close();
                   ?>
                   <div class="desc">Paid Tickets</div>
-                  <div class="value">$<span class="number" data-toggle="counter" data-end="<?php echo $count_fare;?>">0</span>
+                  <div class="value">KES<span class="number" data-toggle="counter" data-end="<?php echo $count_fare;?>">0</span>
                   </div>
                 </div>
               </div>
@@ -68,7 +68,7 @@
               <div class="chart sparkline"><i class="material-icons">loyalty</i></div>
                 <div class="data-info">
                   <?php
-                    //code for summing up number of trains tickets
+                    //code for summing up the number of train tickets
                     $result ="SELECT count(*) FROM orrs_train_tickets where confirmation = 'Approved'";
                     $stmt = $mysqli->prepare($result);
                     $stmt->execute();
