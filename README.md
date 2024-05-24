@@ -1,8 +1,8 @@
 # Online-Railway-Reservation-System
-A simple project based on an Online Railway Reservation System Project that uses PHP Language with MySQL Database. It has a number of features that will allow users to book online railway tickets. This web application as well as the website’s concept is all clear. It’s the same as real-life scenarios and well-implemented on it. 
+A simple project based on an Online Railway Reservation System Project that uses PHP Language with MySQL Database. It has several features that will allow users to book online railway tickets. This web application as well as the website’s concept is all clear. It’s the same as real-life scenarios and well-implemented on it. 
 
 # **About Online Flight Booking System PHP Project**
-In particular, this Online Railway Reservation System Project in PHP focuses mainly on booking train tickets. Also, the system displays all the round trips and one-way routes. In addition, the system allows setting up cities too. Evidently, this project contains an admin panel and a simple client side. In an overview of this web application, the user can simply register in order to use the features. Here, passengers can search for the flight details. For this, the passenger has to select departure and arrival locations with dates, class, and number of passengers. As a result, the system filters out available flight schedules with detailed information.
+In particular, this Online Railway Reservation System Project in PHP focuses mainly on booking train tickets.  This project contains an admin panel and a simple client side. In an overview of this web application, the user can simply register to use the features. Here, passengers can search for the train details. For this, the passenger has to select departure and arrival locations with dates, class, and number of passengers. As a result, the system filters out available train schedules with detailed information.
 
 #Software Requirement to run this project:
 
