@@ -10,7 +10,7 @@
 	<body class="is-preload">
 
 		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+			<div id="page-wrapper" style="background-image: url(images/img-1.jpg); background-size:cover;">
 
 				<!-- Header -->
 					<header id="header" class="alt">
@@ -60,7 +60,7 @@
 								<li class="icon brands fa-instagram"><a href="#">instagram.com</a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Online Railway Reservation System.</li><li>Developed By: Kelvin Mutuku</li>
+								<li style="color:#fff;">&copy; Online Railway Reservation System.</li><li style="color:#fff;">Developed By: Kelvin Mutuku</li>
 							</ul>
 						</div>
 					</section>

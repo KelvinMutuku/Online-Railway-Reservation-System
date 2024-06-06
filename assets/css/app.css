@@ -2237,7 +2237,7 @@ pre code {
   opacity: 1;
 }
 .form-control::placeholder {
-  color: #878787;
+  color: #fff !important;
   opacity: 1;
 }
 .form-control:disabled,

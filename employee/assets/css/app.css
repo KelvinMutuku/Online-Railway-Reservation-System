@@ -2225,19 +2225,19 @@ pre code {
   box-shadow: 0 0 0 0.15rem transparent;
 }
 .form-control::-webkit-input-placeholder {
-  color: #878787;
+  color: #fff;
   opacity: 1;
 }
 .form-control:-ms-input-placeholder {
-  color: #878787;
+  color: #fff;
   opacity: 1;
 }
 .form-control::-ms-input-placeholder {
-  color: #878787;
+  color: #fff;
   opacity: 1;
 }
 .form-control::placeholder {
-  color: #878787;
+  color: #fff !important;
   opacity: 1;
 }
 .form-control:disabled,
