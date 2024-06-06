@@ -50,12 +50,12 @@
     <link rel="stylesheet" href="assets/css/app.css" type="text/css"/>
   </head>
   <body class="be-splash-screen">
-    <div class="be-wrapper be-login">
+    <div class="be-wrapper be-login" style="background-image: url(images/img-1.jpg); background-size:cover;">
       <div class="be-content">
         <div class="main-content container-fluid">
           <div class="splash-container forgot-password">
-            <div class="card card-border-color card-border-color-success">
-              <div class="card-header"><img class="logo-img" src="assets/img/logo-xx.png" alt="logo" width="102" height="#{conf.logoHeight}"><span class="splash-description">Forgot your password?</span></div>
+            <div class="card card-border-color card-border-color-success" style="background-color:transparent;">
+              <div class="card-header"><img class="logo-img" src="assets/img/logo-xx.png" alt="logo" width="102" height="#{conf.logoHeight}"><span class="splash-description" style="color:#fff;">Forgot your password?</span></div>
               <div class="card-body">
               <?php if(isset($success)) {?>
             <!--This code for injecting an alert-->
@@ -81,18 +81,18 @@
             <?php } ?>
               <!--Password Reset Form-->
                 <form method ="POST" >
-                  <p>Don't worry, we'll send you an email to reset your password.</p>
+                  <p style="color:#fff;">Don't worry, we'll send you an email to reset your password.</p>
                   <div class="form-group pt-4">
-                    <input class="form-control" type="email" name="email" required="" placeholder="Your Email" autocomplete="off">
+                    <input class="form-control" type="email" name="email" required="" placeholder="Your Email" autocomplete="off" style="background-color:transparent; color:#fff;">
                   </div>
-                  <p class="pt-1 pb-4">Don't remember your email? <a href="#">Contact Support</a>.</p>
+                  <p class="pt-1 pb-4" style="color:#fff;">Don't remember your email? <a href="#">Contact Support</a>.</p>
                   <div class="form-group pt-1"><input type ="submit" name ="Pwd_reset" class="btn btn-block btn-primary btn-xl" value = "Reset Password"></div>
                 </form>
                 <!--End Password Reset-->
               </div>
             </div>
-            <div class="splash-footer"><a href = "pass-login.php">Home</a></div>
-            <div class="splash-footer">&copy; <?php echo date ('Y');?> Online Railway Reservation System | Developed By Kelvin Mutuku</div>
+            <div class="splash-footer"><a href = "pass-login.php" style="color:#fff;">Home</a></div>
+            <div class="splash-footer" style="color:#fff;">&copy; <?php echo date ('Y');?> Online Railway Reservation System | Developed By Kelvin Mutuku</div>
         </div>
       </div>
     </div>

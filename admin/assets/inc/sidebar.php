@@ -1,5 +1,5 @@
 <div class="be-left-sidebar">
-        <div class="left-sidebar-wrapper"><a class="left-sidebar-toggle" href="#">Dashboard</a>
+        <div class="left-sidebar-wrapper" ><a class="left-sidebar-toggle" href="#">Dashboard</a>
           <div class="left-sidebar-spacer">
             <div class="left-sidebar-scroll">
               <div class="left-sidebar-content">
@@ -19,7 +19,7 @@
                       {
                     ?>
                   <li class="parent"><a href="#"><i class="icon mdi mdi-face"></i><span><?php echo $row->admin_uname;?>'s Profile</span></a>
-                    <ul class="sub-menu">
+                    <ul class="sub-menu" >
                       <li><a href="emp-profile.php">View</a>
                       </li>
                       <li><a href="emp-profile-update.php">Update</a>

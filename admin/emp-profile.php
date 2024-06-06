@@ -36,7 +36,7 @@
         {
         ?>
         <!--End Server Side Script-->
-      <div class="be-content">
+      <div class="be-content" >
         <div class="main-content container-fluid">
           <div class="user-profile">
             <div class="row">

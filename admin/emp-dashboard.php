@@ -10,7 +10,7 @@
   <!--Head-->
   <?php include("assets/inc/head.php");?>
   <!--End Head-->
-  <body>
+  <body style="background-image: url(assets/img/img-2.jpg); background-size:fit; background-repeat:no-repeat;">
 
     <div class="be-wrapper be-fixed-sidebar">
 
@@ -22,7 +22,7 @@
       <?php include('assets/inc/sidebar.php');?>
       <!--End Sidebar-->
 
-      <div class="be-content">
+      <div class="be-content" >
         <div class="main-content container-fluid">
         <div class="row">
             <div class="col-12 col-lg-6 col-xl-3">
