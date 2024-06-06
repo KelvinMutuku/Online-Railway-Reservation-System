@@ -68,7 +68,7 @@
               <div class="chart sparkline"><i class="material-icons">loyalty</i></div>
                 <div class="data-info">
                   <?php
-                    //code for summing up the number of train tickets
+                    //code for summing up number of trains tickets
                     $result ="SELECT count(*) FROM orrs_train_tickets where confirmation = 'Approved'";
                     $stmt = $mysqli->prepare($result);
                     $stmt->execute();

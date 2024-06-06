@@ -77,7 +77,7 @@
                         <td><?php echo $row->current;?></td>
                         <td><?php echo $row->destination;?></td>
                         <td><?php echo $row->time;?></td>
-                        <td>$<?php echo $row->fare;?></td>
+                        <td>KES<?php echo $row->fare;?></td>
                       </tr>
                       <hr>
                         

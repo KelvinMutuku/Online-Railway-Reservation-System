@@ -133,7 +133,7 @@
                     <div class="form-group row">
                       <label class="col-12 col-sm-3 col-form-label text-sm-right" for="inputText3">Train Fare</label>
                       <div class="col-12 col-sm-8 col-lg-6">
-                        <input class="form-control" name="fare"  id="inputText3" type="text" placeholder="$">
+                        <input class="form-control" name="fare"  id="inputText3" type="text" placeholder="KES">
                       </div>
                     </div>
                     

@@ -120,7 +120,7 @@ if(isset($_GET['del']))
                         <td><?php echo $row->train_no;?></td>
                         <td class="center"><?php echo $row->train_dep_stat;?></td>
                         <td class="center"><?php echo $row->train_arr_stat;?></td>
-                        <td class="center">$<?php echo $row->train_fare;?></td>
+                        <td class="center">KES<?php echo $row->train_fare;?></td>
                         <td class="center"><?php echo $row->fare_payment_code;?></td>
                         <!--
                         <td class="center"><a class ="badge badge-success" href ="emp-confirm-tickets.php?ticket_id=<?php echo $row->ticket_id;?>">Update</a> 
