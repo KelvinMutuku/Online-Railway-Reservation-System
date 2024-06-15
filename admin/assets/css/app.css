@@ -13838,7 +13838,7 @@ canvas {
 .be-left-sidebar .sidebar-elements > li > a {
   display: block;
   padding: 0 20px;
-  color: #696969;
+  color: #000 !important;
   font-size: 1.077rem;
   line-height: 38px;
   text-overflow: ellipsis;
@@ -14074,7 +14074,7 @@ canvas {
 }
 .be-left-sidebar .sidebar-elements > li ul li > a {
   padding: 8px 15px 8px 49px;
-  color: #696969;
+  color: black !important;
   font-size: 13px;
   display: block;
   text-overflow: ellipsis;
@@ -14091,10 +14091,10 @@ canvas {
   margin-top: 1px;
 }
 .be-left-sidebar .sidebar-elements > li ul li > a:hover {
-  background-color: #e7e7e7;
+  background: transparent;
 }
 .be-left-sidebar .sidebar-elements > li ul li.active > a {
-  color: #4285f4;
+  background: transparent;
 }
 .be-left-sidebar .sidebar-elements > li ul li ul {
   padding-top: 0;

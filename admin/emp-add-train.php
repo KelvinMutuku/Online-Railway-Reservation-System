@@ -4,7 +4,7 @@
     //date_default_timezone_set('Africa /Nairobi');
     include('assets/inc/checklogin.php');
     check_login();
-    $aid=$_SESSION['emp_id'];
+    // $aid=$_SESSION['emp_id'];
     if(isset($_POST['add_train']))
     {
 
@@ -38,7 +38,7 @@
 <!--Head-->
 <?php include('assets/inc/head.php');?>
 <!--End Head-->
-  <body>
+  <body style="background-image: url(assets/img/img-2.jpg); background-size:fit; background-repeat:no-repeat;">
     <div class="be-wrapper be-fixed-sidebar ">
     <!--Navigation Bar-->
       <?php include('assets/inc/navbar.php');?>

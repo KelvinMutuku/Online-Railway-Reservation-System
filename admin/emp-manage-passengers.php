@@ -4,7 +4,7 @@
   include('assets/inc/config.php');
   include('assets/inc/checklogin.php');
   check_login();
-  $aid=$_SESSION['emp_id'];
+  // $aid=$_SESSION['emp_id'];
   //delete or remove library user  php code
 if(isset($_GET['del']))
 {
@@ -31,7 +31,7 @@ if(isset($_GET['del']))
 <!--HeAD-->
   <?php include('assets/inc/head.php');?>
  <!-- end HEAD--> 
-  <body>
+  <body style="background-image: url(assets/img/img-2.jpg); background-size:fit; background-repeat:no-repeat;">
     <div class="be-wrapper be-fixed-sidebar">
     <!--navbar-->
       <?php include('assets/inc/navbar.php');?>

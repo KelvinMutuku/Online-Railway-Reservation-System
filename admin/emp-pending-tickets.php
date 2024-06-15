@@ -32,7 +32,7 @@ if(isset($_GET['del']))
 <!--HeAD-->
   <?php include('assets/inc/head.php');?>
  <!-- end HEAD--> 
-  <body>
+  <body style="background-image: url(assets/img/img-2.jpg); background-size:fit; background-repeat:no-repeat;">
     <div class="be-wrapper be-fixed-sidebar">
     <!--navbar-->
       <?php include('assets/inc/navbar.php');?>
