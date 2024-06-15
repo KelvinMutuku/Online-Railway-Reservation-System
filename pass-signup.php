@@ -49,7 +49,7 @@
     <link rel="stylesheet" type="text/css" href="assets/lib/material-design-icons/css/material-design-iconic-font.min.css"/>
     <link rel="stylesheet" href="assets/css/app.css" type="text/css"/>
   </head>
-  <body class="be-splash-screen">
+  <body class="be-splash-screen" style="background-image: url(images/img-1.jpg); background-size:cover;">
     <div class="be-wrapper be-login">
       <div class="be-content">
         <div class="main-content container-fluid">
@@ -86,22 +86,22 @@
                   <div class="login-form">
 
                     <div class="form-group">
-                      <input class="form-control" name="pass_fname" type="text" placeholder="Enter Your First Name" autocomplete="off">
+                      <input class="form-control" name="pass_fname" type="text" placeholder="Enter Your First Name">
                     </div>
                     <div class="form-group">
-                      <input class="form-control" name="pass_lname" type="text" placeholder="Enter Your Last Name" autocomplete="off">
+                      <input class="form-control" name="pass_lname" type="text" placeholder="Enter Your Last Name">
                     </div>
                     <div class="form-group">
-                      <input class="form-control" name="pass_phone" type="text" placeholder="Enter Your Phone Number" autocomplete="off">
+                      <input class="form-control" name="pass_phone" type="text" placeholder="Enter Your Phone Number">
                     </div>
                     <div class="form-group">
-                      <input class="form-control" name="pass_addr" type="text" placeholder="Enter Your Address" autocomplete="off">
+                      <input class="form-control" name="pass_addr" type="text" placeholder="Enter Your Address">
                     </div>
                     <div class="form-group">
-                      <input class="form-control" name="pass_uname" type="text" placeholder="Enter Your Username" autocomplete="off">
+                      <input class="form-control" name="pass_uname" type="text" placeholder="Enter Your Username">
                     </div>
                     <div class="form-group">
-                      <input class="form-control" name="pass_email" type="email" placeholder="Enter Your Email Address" autocomplete="off">
+                      <input class="form-control" name="pass_email" type="email" placeholder="Enter Your Email Address">
                     </div>
                     <div class="form-group">
                       <input class="form-control" name="pass_pwd" type="password" placeholder="Password">
@@ -116,7 +116,7 @@
                 <!--End Login-->
               </div>
             </div>
-            <div class="splash-footer">&copy; <?php echo date ('Y');?> Online Railway Reservation System | Developed By Kelvin Mutuku</div>
+            <div class="splash-footer" style="color:#fff !important;">&copy; <?php echo date ('Y');?> Online Railway Reservation System | Developed By Kelvin Mutuku</div>
 
           </div>
         </div>

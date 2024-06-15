@@ -53,7 +53,7 @@
 					
 			<?php } ?>
   </head>
-  <body class="be-splash-screen">
+  <body class="be-splash-screen" style="background-image: url(images/img-1.jpg); background-size:cover;">
     <div class="be-wrapper be-login">
       <div class="be-content">
         <div class="main-content container-fluid">
@@ -96,7 +96,7 @@
             </div>
             <div class="splash-footer"><a href = "index.php">Home</a></div>
 
-            <div class="splash-footer">&copy;  <?php echo date ('Y');?> Online Railway Reservation System | Developed By Kelvin Mutuku</div>
+            <div class="splash-footer" style="color:#fff !important;">&copy;  <?php echo date ('Y');?> Online Railway Reservation System | Developed By Kelvin Mutuku</div>
           </div>
         </div>
       </div>
