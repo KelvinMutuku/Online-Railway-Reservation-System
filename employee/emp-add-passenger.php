@@ -40,7 +40,7 @@
 <!--Head-->
 <?php include('assets/inc/head.php');?>
 <!--End Head-->
-  <body>
+  <body style="background-image: url(assets/img/img-1.jpg); background-size:fit; background-repeat:no-repeat;">
     <div class="be-wrapper be-fixed-sidebar ">
     <!--Navigation Bar-->
       <?php include('assets/inc/navbar.php');?>
@@ -51,12 +51,12 @@
       <!--End Sidebar-->
       <div class="be-content">
         <div class="page-head">
-          <h2 class="page-head-title">Create Passenger</h2>
+          <h2 class="page-head-title" style="color:#fff !important;">Create Passenger</h2>
           <nav aria-label="breadcrumb" role="navigation">
             <ol class="breadcrumb page-head-nav">
-              <li class="breadcrumb-item"><a href="pass-dashboard.php">Dashboard</a></li>
-              <li class="breadcrumb-item"><a href="#">Passenger</a></li>
-              <li class="breadcrumb-item active">Add</li>
+              <li class="breadcrumb-item"><a href="pass-dashboard.php" style="color:#fff !important;">Dashboard</a></li>
+              <li class="breadcrumb-item"><a href="#" style="color:#fff !important;">Passenger</a></li>
+              <li class="breadcrumb-item active" style="color:#fff !important;">Add</li>
             </ol>
           </nav>
         </div>

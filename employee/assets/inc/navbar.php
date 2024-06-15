@@ -12,11 +12,11 @@
     while($row=$res->fetch_object())
     {
 ?>
-    <nav class="navbar navbar-expand fixed-top be-top-header">
+    <nav class="navbar navbar-expand fixed-top be-top-header" style="background: transparent; color:#fff !important;">
         <div class="container-fluid">
           <div class="be-navbar-header"><a class="navbar-brand" href="emp-dashboard.php"></a>
           </div>
-          <div class="page-title"><span>
+          <div class="page-title" style=" color:#fff !important;"><span>
           
           <?php 
           $welcome_string="Hello"; 

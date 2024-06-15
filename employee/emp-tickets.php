@@ -32,7 +32,7 @@ if(isset($_GET['del']))
 <!--HeAD-->
   <?php include('assets/inc/head.php');?>
  <!-- end HEAD--> 
-  <body>
+  <body style="background-image: url(assets/img/img-1.jpg); background-size:fit; background-repeat:no-repeat;">
     <div class="be-wrapper be-fixed-sidebar">
     <!--navbar-->
       <?php include('assets/inc/navbar.php');?>
@@ -43,12 +43,12 @@ if(isset($_GET['del']))
 
       <div class="be-content">
       <div class="page-head">
-          <h2 class="page-head-title">Manage Tickets</h2>
+          <h2 class="page-head-title" style="color:#fff !important;">Manage Tickets</h2>
           <nav aria-label="breadcrumb" role="navigation">
             <ol class="breadcrumb page-head-nav">
-              <li class="breadcrumb-item"><a href="emp-dashboard.php">Dashboard</a></li>
-              <li class="breadcrumb-item"><a href="#">Tickets</a></li>
-              <li class="breadcrumb-item active">Manage Tickets</li>
+              <li class="breadcrumb-item"><a href="emp-dashboard.php" style="color:#fff !important;">Dashboard</a></li>
+              <li class="breadcrumb-item"><a href="#" style="color:#fff !important;">Tickets</a></li>
+              <li class="breadcrumb-item active" style="color:#fff !important;">Manage Tickets</li>
             </ol>
           </nav>
         </div>

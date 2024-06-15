@@ -1,4 +1,4 @@
-<div class="be-left-sidebar" style="background: transparent; ">
+<div class="be-left-sidebar" >
         <div class="left-sidebar-wrapper" ><a class="left-sidebar-toggle" href="#">Dashboard</a>
           <div class="left-sidebar-spacer">
             <div class="left-sidebar-scroll">

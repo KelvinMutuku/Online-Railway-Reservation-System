@@ -12,7 +12,7 @@
   
   <?php include('assets/inc/head.php');?>
   <!--End Head-->
-  <body>
+  <body style="background-image: url(assets/img/img-1.jpg); background-size:fit; background-repeat:no-repeat;">
 
 
     <div class="be-wrapper be-fixed-sidebar">

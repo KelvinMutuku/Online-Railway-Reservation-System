@@ -32,7 +32,7 @@ if(isset($_GET['del']))
 <!--HeAD-->
   <?php include('assets/inc/head.php');?>
  <!-- end HEAD--> 
-  <body>
+  <body style="background-image: url(assets/img/img-1.jpg); background-size:stretch; background-repeat:repeat;">
     <div class="be-wrapper be-fixed-sidebar">
     <!--navbar-->
       <?php include('assets/inc/navbar.php');?>
@@ -43,12 +43,12 @@ if(isset($_GET['del']))
 
       <div class="be-content">
       <div class="page-head">
-          <h2 class="page-head-title">Manage Trains</h2>
+          <h2 class="page-head-title" style="color:#fff !important;">Manage Trains</h2>
           <nav aria-label="breadcrumb" role="navigation">
             <ol class="breadcrumb page-head-nav">
-              <li class="breadcrumb-item"><a href="emp-dashboard.php">Dashboard</a></li>
-              <li class="breadcrumb-item"><a href="#">Trains</a></li>
-              <li class="breadcrumb-item active">Manage Trains</li>
+              <li class="breadcrumb-item"><a href="emp-dashboard.php" style="color:#fff !important;">Dashboard</a></li>
+              <li class="breadcrumb-item"><a href="#" style="color:#fff !important;">Trains</a></li>
+              <li class="breadcrumb-item active" style="color:#fff !important;">Manage Trains</li>
             </ol>
           </nav>
         </div>
@@ -121,7 +121,7 @@ if(isset($_GET['del']))
                         <td class="center"><?php echo $row->current;?></td>
                         <td class="center"><?php echo $row->destination;?></td>
                         <td class="center"><?php echo $row->time;?></td>
-                        <td class="center">$<?php echo $row->fare;?></td>
+                        <td class="center">KES<?php echo $row->fare;?></td>
                         <td class="center"><?php echo $row->passengers;?></td>
                         <td class="center"><a class ="badge badge-success" href ="emp-update-train.php?id=<?php echo $row->id;?>">Update</a> 
                             <hr> <a class ="badge badge-danger" href ="emp-manage-train.php?del=<?php echo $row->id;?>">Delete</a>
